@@ -1,0 +1,45 @@
+body{
+    background : #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.areaForm{
+    background: #292929;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.titleJogoLogin{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+
+.areaFormDados{
+    color: white;
+    text-align: left;   
+}
+
+.areaFormDados div{
+    margin-left: 50px;
+}
+
+.areaFormDados Input{
+    width: 80%;
+    padding: 5px;
+}
+
+.areaFormDados button{padding: 10px;cursor: pointer;}
+
+.pontuacoes{color: white;text-decoration: none;}
+.pontuacoes:hover{text-decoration: underline;}
+
+
