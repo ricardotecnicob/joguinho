@@ -25,7 +25,8 @@ class Login  extends Component{
     };
 
     subscribeToEvents = () => {
-        const io = socket('http://localhost:4000');
+        //const io = socket('http://localhost:4000');
+        const io = socket('https://joguinhobackend.herokuapp.com/');
 
         io.on('jogadores', data => {
             this.setState({ listagem: [data, ...this.state.listagem] });
